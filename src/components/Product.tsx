@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 type Product = {
 	name: string;
 	description: string;
@@ -6,10 +8,12 @@ type Product = {
 const Product = ({ name, description, image }: Product) => {
 	return (
 		<div className='flex flex-col bg-primary'>
-			<img
+			<Image
 				src={image}
 				alt={`${name} - ${description}`}
 				className='h-56 object-cover'
+				width={300}
+				height={225}
 			/>
 			<div className='flex flex-col p-5'>
 				<h3 className='text-white font-bold text-2xl'>{name}</h3>

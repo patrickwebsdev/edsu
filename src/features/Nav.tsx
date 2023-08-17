@@ -5,6 +5,7 @@ import { useState } from 'react';
 import langData from '@/data/lang.json';
 import Dropdown from '@/components/Dropdown';
 import Hamburguer from '@/icons/Hamburguer';
+import Image from 'next/image';
 
 type NavLangs = 'es' | 'en';
 
@@ -19,7 +20,13 @@ export default function Nav({ lang }: NavOptions) {
 		<nav className='bg-secondary-0 sticky top-[0px] w-full z-[100]'>
 			<div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-3'>
 				<a href='#' className='flex items-center'>
-					<img src='/logo.png' className='h-14 mr-3' alt='EDSU' />
+					<Image
+						src='/logo.png'
+						className='h-14 mr-3'
+						alt='EDSU'
+						width={80}
+						height={56}
+					/>
 				</a>
 				<div className='flex items-center md:order-2'>
 					<Dropdown lang={lang} />
