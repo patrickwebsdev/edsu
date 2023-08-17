@@ -13,12 +13,12 @@ type CarouselProps = {
 };
 
 const defaultImages = [
-	'slider1.jpg',
-	'slider2.jpg',
-	'slider3.jpg',
-	'slider4.jpg',
-	'slider5.jpg',
-	'slider6.jpg',
+	'slider1.webp',
+	'slider2.webp',
+	'slider3.webp',
+	'slider4.webp',
+	'slider5.webp',
+	'slider6.webp',
 ];
 
 const Carousel = ({ sliderImages = defaultImages }: CarouselProps) => {

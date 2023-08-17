@@ -17,9 +17,9 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'hero': "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url('/background.jpeg')",
-        'about': "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),url('/background-about.jpg')",
-        'contact': "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),url('/background-contact.jpg')"
+        'hero': "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url('/background.webp')",
+        'about': "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),url('/background-about.webp')",
+        'contact': "linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),url('/background-contact.webp')"
       },
       flex: {
         'flex-mobile': '0 0 33.33%',
