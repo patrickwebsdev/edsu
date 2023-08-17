@@ -23,12 +23,30 @@ const Contact = ({ lang = 'es' }: Langs) => {
 			<h2 className='text-white font-semibold text-center text-xl'>
 				{langData.contact.subtitle[lang]}
 			</h2>
-			<ul className='text-white text-lg text-center [&>li]:flex [&>li]:gap-1 [&>li]:font-semibold [&>li]:fill-white [&>li]:items-center [&>li]:justify-center'>
+			<ul className='text-white text-lg text-center [&>li>a]:flex [&>li>a]:gap-1 [&>li>a]:font-semibold [&>li>a]:fill-white [&>li>a]:items-center [&>li>a]:justify-center'>
 				<li>
-					<PhoneSVG className='w-4' /> +593 XX XX XXX
+					<a href='tel:+593981786594'>
+						<PhoneSVG className='w-4' /> +593 98 178 6594 -{' '}
+						{langData.contact.management[lang]}
+					</a>
 				</li>
 				<li>
-					<EmailSVG className='w-4' /> contact@edsu.com
+					<a href='tel:+593985436795'>
+						<PhoneSVG className='w-4' /> +593 98 543 6795 -{' '}
+						{langData.contact.contact[lang]}
+					</a>
+				</li>
+				<li>
+					<a href='mailto:edwin@edsu.com'>
+						<EmailSVG className='w-4' /> edwin@edsu.com -{' '}
+						{langData.contact.management[lang]}
+					</a>
+				</li>
+				<li>
+					<a href='mailto:jacky@edsu.com'>
+						<EmailSVG className='w-4' /> jacky@edsu.com -{' '}
+						{langData.contact.contact[lang]}
+					</a>
 				</li>
 			</ul>
 		</section>

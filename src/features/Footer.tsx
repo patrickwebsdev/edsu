@@ -24,13 +24,30 @@ const Footer = ({ lang = 'es' }: Langs) => {
 					<h3 className='text-primary relative font-bold after:bg-primary after:absolute after:bottom-0 after:left-0 after:h-[3px] pb-[2px] after:w-[65%] place-self-start mb-3'>
 						{langData.footer.contact[lang]}
 					</h3>
-					<ul className='text-white font-semibold [&>li]:text-white [&>li]:fill-white [&>li]:flex [&>li]:gap-x-1 gap-y-2 flex flex-col'>
+					<ul className='text-white font-semibold [&>li>a]:text-white [&>li>a]:fill-white [&>li>a]:flex [&>li>a]:gap-x-1 gap-y-2 flex flex-col'>
 						<li>
-							<PhoneSVG className='w-5' /> +593 XX XX XXX
+							<a href='tel:+593981786594'>
+								<PhoneSVG className='w-4' /> +593 98 178 6594 -{' '}
+								{langData.contact.management[lang]}
+							</a>
 						</li>
 						<li>
-							<EmailSVG className='w-5' />
-							contact@edsu.com
+							<a href='tel:+593985436795'>
+								<PhoneSVG className='w-4' /> +593 98 543 6795 -{' '}
+								{langData.contact.contact[lang]}
+							</a>
+						</li>
+						<li>
+							<a href='mailto:edwin@edsu.com'>
+								<EmailSVG className='w-4' /> edwin@edsu.com -{' '}
+								{langData.contact.management[lang]}
+							</a>
+						</li>
+						<li>
+							<a href='mailto:jacky@edsu.com'>
+								<EmailSVG className='w-4' /> jacky@edsu.com -{' '}
+								{langData.contact.contact[lang]}
+							</a>
 						</li>
 					</ul>
 				</div>

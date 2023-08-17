@@ -111,6 +111,14 @@
 		"subtitle": {
 			"es": "Contacte con nosotros",
 			"en": "Contact us"
+		},
+		"management": {
+			"es": "gerencia",
+			"en": "management"
+		},
+		"contact": {
+			"es": "contacto",
+			"en": "contact"
 		}
 	},
 	"work": {
