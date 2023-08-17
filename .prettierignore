@@ -1,0 +1,11 @@
+dist
+pnpm-lock.yaml
+.next
+tsconfig.json
+tailwind.config.js
+package.json
+.vscode
+next-env.d.ts
+next.config.js
+package-lock.json
+postcss.config.js

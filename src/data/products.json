@@ -1,0 +1,90 @@
+[
+	{
+		"title": {
+			"es": "Cabaña",
+			"en": "Cabin"
+		},
+		"description": {
+			"es": "Cabaña de madera",
+			"en": "Wooden cabin"
+		},
+		"image": "/products/cabana.jpg"
+	},
+	{
+		"title": {
+			"es": "Pérgola",
+			"en": "Pergola"
+		},
+		"description": {
+			"es": "Pérgola de madera",
+			"en": "Wooden pergola"
+		},
+		"image": "/products/pergola.jpg"
+	},
+	{
+		"title": {
+			"es": "Pisos",
+			"en": "Floors"
+		},
+		"description": {
+			"es": "Decking S4S - E4E - KD",
+			"en": "Decking S4S - E4E - KD"
+		},
+		"image": "/products/pisos.jpg"
+	},
+	{
+		"title": {
+			"es": "Puertas",
+			"en": "Doors"
+		},
+		"description": {
+			"es": "Puertas de madera",
+			"en": "Wooden doors"
+		},
+		"image": "/products/puerta.jpg"
+	},
+	{
+		"title": {
+			"es": "Mesas",
+			"en": "Tables"
+		},
+		"description": {
+			"es": "Losa de saman - live edge",
+			"en": "Slab of saman - live edge"
+		},
+		"image": "/products/mesas.jpg"
+	},
+	{
+		"title": {
+			"es": "Escaleras",
+			"en": "Stairs"
+		},
+		"description": {
+			"es": "Losa de saman - live edge",
+			"en": "Slab of saman - live edge"
+		},
+		"image": "/products/escaleras.jpg"
+	},
+	{
+		"title": {
+			"es": "Porta vino",
+			"en": "Wine holder"
+		},
+		"description": {
+			"es": "No puede faltar en tu barra de bar, un tablón de madera maciza de Saman con bordes vivos",
+			"en": "You cannot miss in your bar counter, a solid wood plank from Saman with live edges"
+		},
+		"image": "/products/portavino.jpg"
+	},
+	{
+		"title": {
+			"es": "Vigas",
+			"en": "Beams"
+		},
+		"description": {
+			"es": "Vigas de madera",
+			"en": "Wooden beams"
+		},
+		"image": "/products/vigas.jpg"
+	}
+]

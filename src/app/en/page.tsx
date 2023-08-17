@@ -9,8 +9,6 @@ import Products from '@/features/Products';
 import Wholesaler from '@/features/Wholesaler';
 import Work from '@/features/Work';
 import type { Metadata } from 'next';
-import Router from 'next/router';
-import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
 	title: 'EDSU',

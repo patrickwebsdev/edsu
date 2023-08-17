@@ -9,8 +9,6 @@ import Products from '@/features/Products';
 import Wholesaler from '@/features/Wholesaler';
 import Work from '@/features/Work';
 import type { Metadata } from 'next';
-import Router from 'next/router';
-import { redirect } from 'next/navigation';
 
 export const metadata: Metadata = {
 	title: 'EDSU',
@@ -20,16 +18,16 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<>
-			<Nav lang='en' />
-			<Hero lang='en' />
-			<Caracteristics lang='en' />
-			<About lang='en' />
-			<Wholesaler lang='en' />
+			<Nav lang='es' />
+			<Hero lang='es' />
+			<Caracteristics lang='es' />
+			<About lang='es' />
+			<Wholesaler lang='es' />
 			<Separator />
-			<Products lang='en' />
-			<Contact lang='en' />
-			<Work lang='en' />
-			<Footer lang='en' />
+			<Products lang='es' />
+			<Contact lang='es' />
+			<Work lang='es' />
+			<Footer lang='es' />
 		</>
 	);
 }

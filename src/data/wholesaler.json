@@ -1,0 +1,90 @@
+[
+	{
+		"title": {
+			"es": "Tablones",
+			"en": "Boards"
+		},
+		"description": {
+			"es": "Tablones de AD y KD",
+			"en": "Teak Boards AD and KD"
+		},
+		"image": "/wholesalers/boards.jpg"
+	},
+	{
+		"title": {
+			"es": "Losa",
+			"en": "Slab"
+		},
+		"description": {
+			"es": "Losa de saman - samanea",
+			"en": "Slab of Saman - Samanea"
+		},
+		"image": "/wholesalers/slab-saman.jpg"
+	},
+	{
+		"title": {
+			"es": "Bloques",
+			"en": "Blocks"
+		},
+		"description": {
+			"es": "Bloques filo vivo de teca",
+			"en": "Live edge blocks Ad"
+		},
+		"image": "/wholesalers/block-teak.jpeg"
+	},
+	{
+		"title": {
+			"es": "Duelas para exteriores",
+			"en": "Boards"
+		},
+		"description": {
+			"es": "Duelas de Teca para exteriores",
+			"en": "S4S E4E TEAK Boards"
+		},
+		"image": "/wholesalers/boards-teak.jpg"
+	},
+	{
+		"title": {
+			"es": "Pisos",
+			"en": "Floors"
+		},
+		"description": {
+			"es": "Decking S4S - E4E - KD",
+			"en": "Decking S4S - E4E - KD"
+		},
+		"image": "/wholesalers/floor-teak.jpeg"
+	},
+	{
+		"title": {
+			"es": "Tablas",
+			"en": "Boards"
+		},
+		"description": {
+			"es": "Tablas de Samán Samanea",
+			"en": "Samán Boards KD S4S E4E"
+		},
+		"image": "/wholesalers/saman-boards.jpeg"
+	},
+	{
+		"title": {
+			"es": "Estacas de teca o gmelina",
+			"en": "Teak or gmelina stakes"
+		},
+		"description": {
+			"es": "4 x 4 cm x 3,4,5 pies de largo",
+			"en": "Measures 4 x 4 cm x 3,4,5 feet long"
+		},
+		"image": "/wholesalers/estacas-teak-gmelina.jpg"
+	},
+	{
+		"title": {
+			"es": "Palets",
+			"en": "Pallets"
+		},
+		"description": {
+			"es": "Palet industriales de saman",
+			"en": "Saman industrial pallet"
+		},
+		"image": "/wholesalers/palet-saman.jpeg"
+	}
+]
