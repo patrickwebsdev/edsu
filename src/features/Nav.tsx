@@ -21,7 +21,7 @@ export default function Nav({ lang }: NavOptions) {
 			<div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-3'>
 				<a href='#' className='flex items-center'>
 					<Image
-						src='/logo.png'
+						src='/logo.webp'
 						className='h-14 mr-3'
 						alt='EDSU'
 						width={80}

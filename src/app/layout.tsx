@@ -6,6 +6,14 @@ import '@fontsource-variable/montserrat';
 export const metadata: Metadata = {
 	title: 'EDSU',
 	description: 'Focused on delivering only the best lumber',
+	metadataBase: new URL('https://edsu.net'),
+	alternates: {
+		canonical: '/',
+		languages: {
+			'en-US': '/en',
+			'es-ES': '/es',
+		},
+	},
 	icons: {
 		shortcut: { url: 'https://edsu.net/favicon.ico', type: 'image/x-icon' },
 		icon: [
@@ -35,16 +43,16 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'EDSU',
 		description: 'Focused on delivering only the best lumber',
-		images: ['https://edsu.net/logo.png'],
+		images: ['https://edsu.net/logo.webp'],
 	},
 	openGraph: {
 		url: 'https://edsu.net',
 		siteName: 'EDSU',
 		images: [
 			{
-				url: 'https://edsu.net/logo.png',
-				width: 2048,
-				height: 1421,
+				url: 'https://edsu.net/logo.webp',
+				width: 1024,
+				height: 711,
 			},
 		],
 		type: 'website',

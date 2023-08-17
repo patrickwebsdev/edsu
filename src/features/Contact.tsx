@@ -11,7 +11,7 @@ const Contact = ({ lang = 'es' }: Langs) => {
 			id='contact'
 		>
 			<Image
-				src='/logo.png'
+				src='/logo.webp'
 				alt='EDSU'
 				className='max-h-28'
 				width={96}

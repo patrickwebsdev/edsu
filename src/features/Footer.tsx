@@ -6,13 +6,20 @@ import LinkedinSVG from '@/icons/LinkedinSVG';
 import PhoneSVG from '@/icons/PhoneSVG';
 import langData from '@/data/lang.json';
 import Langs from '@/interfaces/Langs';
+import Image from 'next/image';
 
 const Footer = ({ lang = 'es' }: Langs) => {
 	return (
 		<footer className='bg-secondary-0'>
 			<div className='max-w-screen-xl px-3 mx-auto grid md:grid-cols-3 gap-10 grid-cols-1 py-5'>
 				<div className='flex flex-col justify-center items-center gap-y-2'>
-					<img src='/logo.png' className='w-24' alt='EDSU' />
+					<Image
+						src='/logo.webp'
+						className='w-24'
+						alt='EDSU'
+						width={80}
+						height={56}
+					/>
 					<p className='text-white font-semibold text-center px-3 max-w-[300px]'>
 						Focused on delivering only the best lumber
 					</p>

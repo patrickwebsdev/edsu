@@ -6,7 +6,8 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 
-import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 
 type CarouselProps = {
 	sliderImages?: string[];
@@ -26,15 +27,25 @@ const Carousel = ({ sliderImages = defaultImages }: CarouselProps) => {
 		<Swiper
 			loop={true}
 			spaceBetween={10}
+			centeredSlides={true}
 			navigation={true}
-			modules={[FreeMode, Navigation, Thumbs]}
+			modules={[Autoplay, Pagination, Navigation]}
+			autoplay={{
+				delay: 2500,
+				disableOnInteraction: true,
+			}}
+			pagination={{
+				clickable: true,
+			}}
 			className='mySwiper2 lg:[&>.swiper-wrapper]:h-[365px] [&>.swiper-wrapper]:h-[50vh]'
 		>
 			{sliderImages.map((image) => (
 				<SwiperSlide className='!flex justify-center' key={image}>
-					<img
+					<Image
 						src={`/slider/${image}`}
 						alt={image}
+						width={800}
+						height={800}
 						className='object-cover w-full'
 					/>
 				</SwiperSlide>
