@@ -8,7 +8,7 @@
 			"es": "Cabaña de madera",
 			"en": "Wooden cabin"
 		},
-		"image": "/products/cabana.jpg"
+		"image": "/products/cabana.webp"
 	},
 	{
 		"title": {
@@ -19,7 +19,7 @@
 			"es": "Pérgola de madera",
 			"en": "Wooden pergola"
 		},
-		"image": "/products/pergola.jpg"
+		"image": "/products/pergola.webp"
 	},
 	{
 		"title": {
@@ -30,7 +30,7 @@
 			"es": "Decking S4S - E4E - KD",
 			"en": "Decking S4S - E4E - KD"
 		},
-		"image": "/products/pisos.jpg"
+		"image": "/products/pisos.webp"
 	},
 	{
 		"title": {
@@ -41,7 +41,7 @@
 			"es": "Puertas de madera",
 			"en": "Wooden doors"
 		},
-		"image": "/products/puerta.jpg"
+		"image": "/products/puerta.webp"
 	},
 	{
 		"title": {
@@ -52,7 +52,7 @@
 			"es": "Losa de saman - live edge",
 			"en": "Slab of saman - live edge"
 		},
-		"image": "/products/mesas.jpg"
+		"image": "/products/mesas.webp"
 	},
 	{
 		"title": {
@@ -63,7 +63,7 @@
 			"es": "Losa de saman - live edge",
 			"en": "Slab of saman - live edge"
 		},
-		"image": "/products/escaleras.jpg"
+		"image": "/products/escaleras.webp"
 	},
 	{
 		"title": {
@@ -74,7 +74,7 @@
 			"es": "No puede faltar en tu barra de bar, un tablón de madera maciza de Saman con bordes vivos",
 			"en": "You cannot miss in your bar counter, a solid wood plank from Saman with live edges"
 		},
-		"image": "/products/portavino.jpg"
+		"image": "/products/portavino.webp"
 	},
 	{
 		"title": {
@@ -85,6 +85,6 @@
 			"es": "Vigas de madera",
 			"en": "Wooden beams"
 		},
-		"image": "/products/vigas.jpg"
+		"image": "/products/vigas.webp"
 	}
 ]
