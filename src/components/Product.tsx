@@ -11,7 +11,7 @@ const Product = ({ name, description, image }: Product) => {
 			<Image
 				src={image}
 				alt={`${name} - ${description}`}
-				className='h-56 object-cover'
+				className='h-56 object-cover w-full'
 				width={300}
 				height={225}
 			/>
