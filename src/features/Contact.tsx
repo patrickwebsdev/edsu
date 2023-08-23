@@ -31,12 +31,6 @@ const Contact = ({ lang = 'es' }: Langs) => {
 					</a>
 				</li>
 				<li>
-					<a href='tel:+593985436795'>
-						<PhoneSVG className='w-4' /> +593 98 543 6795 -{' '}
-						{langData.contact.contact[lang]}
-					</a>
-				</li>
-				<li>
 					<a href='mailto:edwin@edsu.com'>
 						<EmailSVG className='w-4' /> edwin@edsu.com -{' '}
 						{langData.contact.management[lang]}
