@@ -31,14 +31,14 @@ const Contact = ({ lang = 'es' }: Langs) => {
 					</a>
 				</li>
 				<li>
-					<a href='mailto:edwin@edsu.com'>
-						<EmailSVG className='w-4' /> edwin@edsu.com -{' '}
+					<a href='mailto:edwin@edsu.net'>
+						<EmailSVG className='w-4' /> edwin@edsu.net -{' '}
 						{langData.contact.management[lang]}
 					</a>
 				</li>
 				<li>
-					<a href='mailto:jacky@edsu.com'>
-						<EmailSVG className='w-4' /> jacky@edsu.com -{' '}
+					<a href='mailto:jacky@edsu.net'>
+						<EmailSVG className='w-4' /> jacky@edsu.net -{' '}
 						{langData.contact.contact[lang]}
 					</a>
 				</li>
