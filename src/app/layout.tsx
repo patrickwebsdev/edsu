@@ -1,7 +1,6 @@
-import Head from 'next/head';
 import type { Metadata } from 'next';
-import './globals.css';
 import '@fontsource-variable/montserrat';
+import './globals.css';
 
 export const metadata: Metadata = {
 	title: 'EDSU Lumber',
@@ -56,7 +55,7 @@ export const metadata: Metadata = {
 				sizes: '32x32',
 			},
 			{
-				url: 'https://edsu.net/favicons/android-chrome-192x192',
+				url: 'https://edsu.net/favicons/android-chrome-192x192.png',
 				type: 'image/png',
 				sizes: '192x192',
 			},
