@@ -4,7 +4,7 @@ import './globals.css';
 import '@fontsource-variable/montserrat';
 
 export const metadata: Metadata = {
-	title: 'EDSU',
+	title: 'EDSU Lumber',
 	description: 'Focused on delivering only the best lumber',
 	metadataBase: new URL('https://edsu.net'),
 	alternates: {
@@ -41,13 +41,13 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'EDSU',
+		title: 'EDSU Lumber',
 		description: 'Focused on delivering only the best lumber',
 		images: ['https://edsu.net/logo.webp'],
 	},
 	openGraph: {
 		url: 'https://edsu.net',
-		siteName: 'EDSU',
+		siteName: 'EDSU Lumber',
 		images: [
 			{
 				url: 'https://edsu.net/logo.webp',
