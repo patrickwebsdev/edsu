@@ -8,20 +8,25 @@ import Nav from '@/features/Nav';
 import Products from '@/features/Products';
 import Wholesaler from '@/features/Wholesaler';
 import Work from '@/features/Work';
+import { Locale } from '../../i18n-config';
 
-export default function Home() {
+export default async function IndexPage({
+	params: { lang },
+}: {
+	params: { lang: Locale };
+}) {
 	return (
 		<>
-			<Nav lang='en' />
-			<Hero lang='en' />
-			<Caracteristics lang='en' />
-			<About lang='en' />
-			<Wholesaler lang='en' />
+			<Nav lang={lang} />
+			<Hero lang={lang} />
+			<Caracteristics lang={lang} />
+			<About lang={lang} />
+			<Wholesaler lang={lang} />
 			<Separator />
-			<Products lang='en' />
-			<Contact lang='en' />
-			<Work lang='en' />
-			<Footer lang='en' />
+			<Products lang={lang} />
+			<Contact lang={lang} />
+			<Work lang={lang} />
+			<Footer lang={lang} />
 		</>
 	);
 }

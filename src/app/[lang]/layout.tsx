@@ -7,11 +7,13 @@ export const metadata: Metadata = {
 	title: 'EDSU Lumber',
 	description: 'Focused on delivering only the best lumber',
 	metadataBase: new URL('https://edsu.net'),
+	themeColor: '#DC8723',
 	alternates: {
-		canonical: '/',
+		canonical: 'https://edsu.net',
 		languages: {
-			'en-US': '/en',
-			'es-ES': '/es',
+			'en-US': 'https://edsu.net/en',
+			'es-ES': 'https://edsu.net/es',
+			'x-default': 'https://edsu.net/en',
 		},
 	},
 	icons: {
@@ -66,12 +68,6 @@ export default function RootLayout({
 }) {
 	return (
 		<html className='scroll-smooth' lang='en'>
-			<Head>
-				<meta name='msapplication-TileColor' content='#DC8723' />
-				<meta name='theme-color' content='#DC8723' />
-				<link rel='alternate' href='https://edsu.net/' hrefLang='x-default' />
-				<link rel='alternate' href='https://edsu.net/es' hrefLang='es' />
-			</Head>
 			<body>{children}</body>
 		</html>
 	);
