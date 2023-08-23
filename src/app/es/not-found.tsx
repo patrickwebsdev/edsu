@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-	title: 'EDSU Lumber | 404',
+	title: 'EDSU Lumber | Error 404',
 };
 
 const NotFound = () => {
