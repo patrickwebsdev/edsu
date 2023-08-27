@@ -6,21 +6,21 @@
     <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://edsu.net/es/"/>
+               href="https://edsu.net/es"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://edsu.net/en/"/>
+               href="https://edsu.net/en"/>
   </url>
   <url>
     <loc>https://edsu.net/es/</loc>
     <xhtml:link
                rel="alternate"
                hreflang="es"
-               href="https://edsu.net/es/"/>
+               href="https://edsu.net/es"/>
     <xhtml:link
                rel="alternate"
                hreflang="en"
-               href="https://edsu.net/en/"/>
+               href="https://edsu.net/en"/>
   </url>
 </urlset>
