@@ -33,12 +33,6 @@ const Footer = ({ lang = 'es' }: Langs) => {
 					</h3>
 					<ul className='text-white font-semibold [&>li>a]:text-white [&>li>a]:fill-white [&>li>a]:flex [&>li>a]:gap-x-1 gap-y-2 flex flex-col'>
 						<li>
-							<a href='tel:+593981786594'>
-								<PhoneSVG className='w-4' /> +593 98 178 6594 -{' '}
-								{langData.contact.management[lang]}
-							</a>
-						</li>
-						<li>
 							<a href='mailto:edwin@edsu.net'>
 								<EmailSVG className='w-4' /> edwin@edsu.net -{' '}
 								{langData.contact.management[lang]}
