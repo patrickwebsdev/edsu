@@ -101,7 +101,17 @@
 		"title": {
 			"es": "Nuestros productos",
 			"en": "Our products"
-		}
+		},
+    "catalog": {
+      "title": {
+        "es": "Explora nuestro catalogo de productos aquí",
+        "en": "Explore our product catalog here"
+      },
+      "link": {
+        "es": "/catalog/Catalogo_edsu_lumber_ltda.pdf",
+        "en": "/catalog/Catalog_edsu_lumber_ltda.pdf"
+      }
+    }
 	},
 	"contact": {
 		"title": {
