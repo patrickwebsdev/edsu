@@ -26,7 +26,7 @@ const Modal: React.FC<ModalProps> = ({ setIsOpen, pdfUrl }) => {
             </button>
           </div>
           <div className="h-full w-full">
-            <iframe src={pdfUrl + "#toolbar=0"} className="w-full h-full" title="PDF Products" />
+            <iframe src={"https://docs.google.com/gview?url=" + pdfUrl + "&embedded=true"} className="h-full w-full" title="PDF Products"></iframe>
           </div>
         </div>
       </div>
