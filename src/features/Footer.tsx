@@ -7,6 +7,7 @@ import PhoneSVG from '@/icons/PhoneSVG';
 import langData from '@/data/lang.json';
 import Langs from '@/interfaces/Langs';
 import Image from 'next/image';
+import MapPinSVG from '@/icons/MapPinSVG';
 
 const Footer = ({ lang = 'es' }: Langs) => {
 	return (
@@ -31,19 +32,18 @@ const Footer = ({ lang = 'es' }: Langs) => {
 					<h3 className='text-primary relative font-bold after:bg-primary after:absolute after:bottom-0 after:left-0 after:h-[3px] pb-[2px] after:w-[65%] place-self-start mb-3'>
 						{langData.footer.contact[lang]}
 					</h3>
-					<ul className='text-white font-semibold [&>li>a]:text-white [&>li>a]:fill-white [&>li>a]:flex [&>li>a]:gap-x-1 gap-y-2 flex flex-col'>
+					<ul className='text-white font-semibold [&>li>*]:text-white [&>li>*]:fill-white [&>li>*]:flex [&>li>*]:gap-x-1 gap-y-2 flex flex-col'>
 						<li>
-							<a href='mailto:edwin@edsu.net'>
-								<EmailSVG className='w-4' /> edwin@edsu.net -{' '}
-								{langData.contact.management[lang]}
-							</a>
-						</li>
-						<li>
-							<a href='mailto:jacky@edsu.net'>
-								<EmailSVG className='w-4' /> jacky@edsu.net -{' '}
+							<a href='mailto:info@edsu.net'>
+								<EmailSVG className='w-4' /> info@edsu.net -{' '}
 								{langData.contact.contact[lang]}
 							</a>
 						</li>
+				<li>
+					<p>
+						<MapPinSVG className='w-4' /> Manabi via Manta - Guayaquil km 14/2
+					</p>
+				</li>
 					</ul>
 				</div>
 				<div className='flex flex-col'>
