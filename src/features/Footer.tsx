@@ -34,16 +34,23 @@ const Footer = ({ lang = 'es' }: Langs) => {
 					</h3>
 					<ul className='text-white font-semibold [&>li>*]:text-white [&>li>*]:fill-white [&>li>*]:flex [&>li>*]:gap-x-1 gap-y-2 flex flex-col'>
 						<li>
+							<a href='mailto:lenin@edsu.net'>
+								<EmailSVG className='w-4' /> lenin@edsu.net -{' '}
+								{langData.contact.contact[lang]}
+							</a>
+						</li>
+						<li>
 							<a href='mailto:info@edsu.net'>
 								<EmailSVG className='w-4' /> info@edsu.net -{' '}
 								{langData.contact.contact[lang]}
 							</a>
 						</li>
-				<li>
-					<p>
-						<MapPinSVG className='w-4' /> Manabi via Manta - Guayaquil km 14/2
-					</p>
-				</li>
+						<li>
+							<p>
+								<MapPinSVG className='w-4' /> Manabi via Manta - Guayaquil km
+								14/2
+							</p>
+						</li>
 					</ul>
 				</div>
 				<div className='flex flex-col'>
