@@ -1,9 +1,7 @@
-import MapMarker from '@/components/MapMarker';
 import EmailSVG from '@/icons/EmailSVG';
 import FacebookSVG from '@/icons/FacebookSVG';
 import InstagramSVG from '@/icons/InstagramSVG';
 import LinkedinSVG from '@/icons/LinkedinSVG';
-import PhoneSVG from '@/icons/PhoneSVG';
 import langData from '@/data/lang.json';
 import Langs from '@/interfaces/Langs';
 import Image from 'next/image';
@@ -47,8 +45,8 @@ const Footer = ({ lang = 'es' }: Langs) => {
 						</li>
 						<li>
 							<p>
-								<MapPinSVG className='w-4' /> Manabi via Manta - Guayaquil km
-								14/2
+								<MapPinSVG className='w-4' /> Ecuador, Manabi, Manta, av 4 de
+								noviembre calle 118 y 119
 							</p>
 						</li>
 					</ul>

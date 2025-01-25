@@ -1,154 +1,154 @@
 {
-  "menu": {
-    "open": {
-      "es": "Abrir menu",
-      "en": "Open menu"
-    },
-    "home": {
-      "es": "Inicio",
-      "en": "Home"
-    },
-    "about": {
-      "es": "Nostros",
-      "en": "About us"
-    },
-    "wholesalers": {
-      "es": "Mayoristas",
-      "en": "Wholesalers"
-    },
-    "products": {
-      "es": "Productos",
-      "en": "Products"
-    },
-    "contact": {
-      "es": "Contacto",
-      "en": "Contact"
-    },
-    "english": {
-      "es": "Ingles (EN)",
-      "en": "English (EN)"
-    },
-    "spanish": {
-      "es": "Español (ES)",
-      "en": "Spanish (ES)"
-    }
-  },
-  "hero": {
-    "title": {
-      "es": "Construye tus sueños con nuestra selección de madera",
-      "en": "Build your dreams with our selection of wood"
-    },
-    "button": {
-      "wholesaler": {
-        "es": "Mayoristas",
-        "en": "Wholesalers"
-      },
-      "product": {
-        "es": "Explora nuestros productos",
-        "en": "Explore our products"
-      }
-    }
-  },
-  "caracteristics": {
-    "wooden": {
-      "es": {
-        "title": "Madera",
-        "subtitle": "Especialistas en madera de la más alta calidad"
-      },
-      "en": {
-        "title": "Wood",
-        "subtitle": "Specialists in wood of the highest quality"
-      }
-    },
-    "price": {
-      "es": {
-        "title": "Mejor precio",
-        "subtitle": "Competimos con los mejores precios del mercado"
-      },
-      "en": {
-        "title": "Best price",
-        "subtitle": "We compete with the best prices on the market"
-      }
-    },
-    "species": {
-      "es": {
-        "title": "Especies",
-        "subtitle": "Cortamos madera de calidad de plantaciones sostenibles"
-      },
-      "en": {
-        "title": "Species",
-        "subtitle": "We cut quality wood from sustainable plantations"
-      }
-    }
-  },
-  "about": {
-    "title": {
-      "es": "Sobre nosotros",
-      "en": "About us"
-    },
-    "text": {
-      "es": "En EDSU, nos enorgullece ofrecer productos de madera de la más alta calidad. Nos especializamos en las especies de madera teca, canelo, cocobolo y samán, conocidas por su durabilidad, belleza natural y versatilidad. Nuestro compromiso con la sostenibilidad nos lleva a trabajar con plantaciones sostenibles y garantizar la procedencia ética de nuestras materias primas.",
-      "en": "At EDSU, we take pride in providing the highest quality wood products. We specialize in teak, cinnamon, cocobolo, and saman wood species, known for their durability, natural beauty, and versatility. Our commitment to sustainability leads us to work with sustainable plantations and guarantee the ethical origin of our raw materials."
-    }
-  },
-  "wholesaler": {
-    "title": {
-      "es": "Mayoristas",
-      "en": "Wholesalers"
-    }
-  },
-  "products": {
-    "title": {
-      "es": "Nuestros productos",
-      "en": "Our products"
-    },
-    "catalog": {
-      "title": {
-        "es": "Explora nuestro catalogo de productos aquí",
-        "en": "Explore our product catalog here"
-      },
-      "link": {
-        "es": "https://edsu.net/catalog/Catalogo_edsu_lumber_ltda.pdf",
-        "en": "https://edsu.net/catalog/Catalog_edsu_lumber_ltda.pdf"
-      }
-    }
-  },
-  "contact": {
-    "title": {
-      "es": "Productos de la más alta calidad con madera seleccionadas",
-      "en": "Products of the highest quality with selected wood"
-    },
-    "subtitle": {
-      "es": "Contacte con nosotros",
-      "en": "Contact us"
-    },
-    "management": {
-      "es": "gerencia",
-      "en": "management"
-    },
-    "contact": {
-      "es": "contacto",
-      "en": "contact"
-    }
-  },
-  "work": {
-    "title": {
-      "es": "Nuestro trabajo",
-      "en": "Our work"
-    }
-  },
-  "footer": {
-    "contact": {
-      "es": "Contacto",
-      "en": "Contact"
-    },
-    "follow": {
-      "es": "Siguenos",
-      "en": "Follow us"
-    },
-    "copyright": {
-      "es": "Copyright © EDSU 2024. Todos los derechos reservados.",
-      "en": "Copyright © EDSU 2024. All rights reserved."
-    }
-  }
+	"menu": {
+		"open": {
+			"es": "Abrir menu",
+			"en": "Open menu"
+		},
+		"home": {
+			"es": "Inicio",
+			"en": "Home"
+		},
+		"about": {
+			"es": "Nostros",
+			"en": "About us"
+		},
+		"wholesalers": {
+			"es": "Mayoristas",
+			"en": "Wholesalers"
+		},
+		"products": {
+			"es": "Productos",
+			"en": "Products"
+		},
+		"contact": {
+			"es": "Contacto",
+			"en": "Contact"
+		},
+		"english": {
+			"es": "Ingles (EN)",
+			"en": "English (EN)"
+		},
+		"spanish": {
+			"es": "Español (ES)",
+			"en": "Spanish (ES)"
+		}
+	},
+	"hero": {
+		"title": {
+			"es": "Construye tus sueños con nuestra selección de madera",
+			"en": "Build your dreams with our selection of wood"
+		},
+		"button": {
+			"wholesaler": {
+				"es": "Mayoristas",
+				"en": "Wholesalers"
+			},
+			"product": {
+				"es": "Explora nuestros productos",
+				"en": "Explore our products"
+			}
+		}
+	},
+	"caracteristics": {
+		"wooden": {
+			"es": {
+				"title": "Madera",
+				"subtitle": "Especialistas en madera de la más alta calidad"
+			},
+			"en": {
+				"title": "Wood",
+				"subtitle": "Specialists in wood of the highest quality"
+			}
+		},
+		"price": {
+			"es": {
+				"title": "Mejor precio",
+				"subtitle": "Competimos con los mejores precios del mercado"
+			},
+			"en": {
+				"title": "Best price",
+				"subtitle": "We compete with the best prices on the market"
+			}
+		},
+		"species": {
+			"es": {
+				"title": "Especies",
+				"subtitle": "Cortamos madera de calidad de plantaciones sostenibles"
+			},
+			"en": {
+				"title": "Species",
+				"subtitle": "We cut quality wood from sustainable plantations"
+			}
+		}
+	},
+	"about": {
+		"title": {
+			"es": "Sobre nosotros",
+			"en": "About us"
+		},
+		"text": {
+			"es": "En EDSU, nos enorgullece ofrecer productos de madera de la más alta calidad. Nos especializamos en las especies de madera teca, canelo, cocobolo y samán, conocidas por su durabilidad, belleza natural y versatilidad. Nuestro compromiso con la sostenibilidad nos lleva a trabajar con plantaciones sostenibles y garantizar la procedencia ética de nuestras materias primas.",
+			"en": "At EDSU, we take pride in providing the highest quality wood products. We specialize in teak, cinnamon, cocobolo, and saman wood species, known for their durability, natural beauty, and versatility. Our commitment to sustainability leads us to work with sustainable plantations and guarantee the ethical origin of our raw materials."
+		}
+	},
+	"wholesaler": {
+		"title": {
+			"es": "Mayoristas",
+			"en": "Wholesalers"
+		}
+	},
+	"products": {
+		"title": {
+			"es": "Nuestros productos",
+			"en": "Our products"
+		},
+		"catalog": {
+			"title": {
+				"es": "Explora nuestro catalogo de productos aquí",
+				"en": "Explore our product catalog here"
+			},
+			"link": {
+				"es": "https://edsu.net/catalog/Catalogo_edsu_lumber_ltda.pdf",
+				"en": "https://edsu.net/catalog/Catalog_edsu_lumber_ltda.pdf"
+			}
+		}
+	},
+	"contact": {
+		"title": {
+			"es": "Productos de la más alta calidad con madera seleccionadas",
+			"en": "Products of the highest quality with selected wood"
+		},
+		"subtitle": {
+			"es": "Contacte con nosotros",
+			"en": "Contact us"
+		},
+		"management": {
+			"es": "gerencia",
+			"en": "management"
+		},
+		"contact": {
+			"es": "contacto",
+			"en": "contact"
+		}
+	},
+	"work": {
+		"title": {
+			"es": "Nuestro trabajo",
+			"en": "Our work"
+		}
+	},
+	"footer": {
+		"contact": {
+			"es": "Contacto",
+			"en": "Contact"
+		},
+		"follow": {
+			"es": "Siguenos",
+			"en": "Follow us"
+		},
+		"copyright": {
+			"es": "Copyright © EDSU 2025. Todos los derechos reservados.",
+			"en": "Copyright © EDSU 2025. All rights reserved."
+		}
+	}
 }
