@@ -9,6 +9,6 @@ const YoutubeVideo = () => {
 
 	const opts: YouTubeProps['opts'] = {};
 
-	return <YouTube videoId='osr2xaOsbSM' opts={opts} onReady={onPlayerReady} />;
+	return <YouTube videoId='sP8ZOB9Y9Wo' opts={opts} onReady={onPlayerReady} />;
 };
 export default YoutubeVideo;
