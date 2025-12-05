@@ -9,7 +9,7 @@ import Modal from '@/components/Modal';
 import { useState, useEffect } from 'react';
 
 const Products = ({ lang = 'es' }: Langs) => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ const Products = ({ lang = 'es' }: Langs) => {
             />
           ))}
         </div>
-        <div className="flex justify-center my-10 px-3">
+        {/* <div className="flex justify-center my-10 px-3">
           <button
             onClick={() => setIsOpen(true)}
             className="bg-primary md:w-auto p-4 font-bold self-center animate-bounce flex flex-row gap-2"
@@ -44,9 +44,9 @@ const Products = ({ lang = 'es' }: Langs) => {
             {langData.products.catalog.title[lang]}
             <ArrowUpRightSVG className="w-6" />
           </button>
-        </div>
+        </div> */}
       </section>
-      {isOpen && <Modal setIsOpen={setIsOpen} pdfUrl={langData.products.catalog.link[lang]} />}
+      {/* {isOpen && <Modal setIsOpen={setIsOpen} pdfUrl={langData.products.catalog.link[lang]} />} */}
     </>
   );
 };
