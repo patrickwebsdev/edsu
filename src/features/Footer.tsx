@@ -33,8 +33,7 @@ const Footer = ({ lang = 'es' }: Langs) => {
 					<ul className='text-white font-semibold [&>li>*]:text-white [&>li>*]:fill-white [&>li>*]:flex [&>li>*]:gap-x-1 gap-y-2 flex flex-col'>
 						<li>
 							<a href='mailto:info@edsu.net'>
-								<EmailSVG className='w-4' /> info@edsu.net -{' '}
-								{langData.contact.contact[lang]}
+								<EmailSVG className='w-4' /> info@edsu.net
 							</a>
 						</li>
 						<li>

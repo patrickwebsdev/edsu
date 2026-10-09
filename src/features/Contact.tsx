@@ -26,8 +26,7 @@ const Contact = ({ lang = 'es' }: Langs) => {
 			<ul className='text-white text-lg text-center [&>li>a]:flex [&>li>a]:gap-1 [&>li>a]:font-semibold [&>li>a]:fill-white [&>li>a]:items-center [&>li>a]:justify-center'>
 				<li>
 					<a href='mailto:info@edsu.net'>
-						<EmailSVG className='w-4' /> info@edsu.net -{' '}
-						{langData.contact.contact[lang]}
+						<EmailSVG className='w-4' /> info@edsu.net
 					</a>
 				</li>
 			</ul>
