@@ -32,8 +32,8 @@ const Footer = ({ lang = 'es' }: Langs) => {
 					</h3>
 					<ul className='text-white font-semibold [&>li>*]:text-white [&>li>*]:fill-white [&>li>*]:flex [&>li>*]:gap-x-1 gap-y-2 flex flex-col'>
 						<li>
-							<a href='mailto:gerencia@edsu.net'>
-								<EmailSVG className='w-4' /> gerencia@edsu.net -{' '}
+							<a href='mailto:info@edsu.net'>
+								<EmailSVG className='w-4' /> info@edsu.net -{' '}
 								{langData.contact.contact[lang]}
 							</a>
 						</li>
@@ -44,22 +44,6 @@ const Footer = ({ lang = 'es' }: Langs) => {
 							</p>
 						</li>
 					</ul>
-				</div>
-				<div className='flex flex-col'>
-					<h3 className='text-primary relative font-bold after:bg-primary after:absolute after:bottom-0 after:left-0 after:h-[3px] pb-[2px] after:w-[65%] place-self-start mb-3'>
-						{langData.footer.follow[lang]}
-					</h3>
-					<div className='flex text-white fill-white gap-1'>
-						<a href=''>
-							<InstagramSVG className='w-6' />
-						</a>
-						<a href=''>
-							<FacebookSVG className='w-6' />
-						</a>
-						<a href=''>
-							<LinkedinSVG className='w-6' />
-						</a>
-					</div>
 				</div>
 			</div>
 			<div className='w-full bg-white'>
